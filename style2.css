@@ -1,0 +1,232 @@
+/* Logo COC = font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+body {
+    font-family: "Roboto Condensed", serif;
+    background-color: whitesmoke;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*---- Header da Página ----*/
+
+.header-cruzeiro {
+    text-align: center;
+    font-size: 16px;
+    padding: 31px 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-style: normal;
+    margin: 9px auto;
+}
+
+.header-cruzeiro img{
+    width: 1000px;
+    padding: -100px auto;
+    position: relative;
+    top: 10px;
+    left: 7px;
+    margin: -30px auto;
+}
+
+.menu-cruzeiro{
+    padding: 20px auto;
+    margin: 50px auto;
+    height: 61.5px;
+    line-height: 62px;
+    position: relative;
+    top: 20px;
+    bottom: 20px;
+    background-image: linear-gradient(to right, #0272bc, #194a9f);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 12px;
+    border-radius: 4px;
+}
+
+a:hover{
+    color: #0d569d;
+    background: white;
+}
+
+/*---- conteúdo principal da página ----*/
+
+#conteudo-principal{
+    width: 60%; /*920px*/
+    margin: 0 auto;
+    padding: 30px;
+    position: relative;
+    right: 150px;
+    bottom: 40px;
+    border: 1px solid green;
+    height: 800px;
+
+}
+
+#area-postagens{
+    width: 900px;
+    height: 800px;
+    float: left;
+    border: 1px solid blueviolet;
+}
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    height: 120px;
+    background: white;
+    border: 1px solid red;
+}
+
+h2{
+    font-family: "Roboto", serif;
+    margin-bottom: 2px;
+    font-size: 23px;
+    text-align: left;
+}
+
+.postagem a{
+    padding: 0;
+}
+
+#img-1{
+    padding: 50px;
+    padding-right: 0;
+    margin: auto;
+    position: relative;
+    float: left;
+    bottom: 50px;
+    right: 300px;
+    left: -49px;
+    width: 200px;
+    display: inline;
+    padding-right: 0;
+}
+
+#img-2 {
+    position: relative;
+    bottom: 50px;
+    padding: 50px;
+    margin: auto;
+    float: left;
+    bottom: 115px;
+    right: 300px;
+    left: -49px;
+    width: 200px;
+    display: inline;
+}
+
+p{
+    position: relative;
+    bottom: 60px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#conteudo-principal a{
+    color: #194a9f;    
+}
+
+#conteudo-principal a:hover{
+    color: #194a9f;
+    background: none;
+}
+
+img {
+    border: 1px solid black;
+}
+
+
+/*---- Menu Lateral ----*/
+
+h3 {
+    background-color: #ced8f0;
+    padding: 5px;
+}
+
+#menu-lateral{
+    width: 26.5%;
+    height: 240px;
+    float: right;
+    position: relative;
+    left: 400px;
+    bottom: 800px;
+    background-color: white;
+    padding: 5px;
+    min-width: 26.5%;
+}
+
+#links{
+    width: 240px;
+    height: 160px;
+    float: right;
+    position: relative;
+    left: 5px;
+    margin-left: 5px;
+    background-color: white;
+    padding: 5px;
+}
+
+.conteudo-lateral{
+margin-bottom: 50px;
+}
+
+
+.conteudo-lateral a{
+    background: none;
+    position: absolute;
+    color: #0d569d;
+    padding: 5px;
+    height: 30px;
+}
+
+
+.postagem-lateral{
+    font-size: 1.0em;
+    margin-top: 9px;
+}
+
+.links-relacionados a{
+    display: block;
+}
+
+
+hr{
+    display: block;
+    position: relative;
+    top: 30px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#novo{
+    position: static;
+}
+
+#nova{
+    position: static;
+    padding-top: 20px;
+}
+
+/*---- Rodapé ----*/
+
+#rodape{
+    clear: both;
+    text-align: center;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    padding: 21px 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    margin: 10px auto;
+    background-image: linear-gradient(to right, #0272bc, #194a9f);
+    color: white;
+}

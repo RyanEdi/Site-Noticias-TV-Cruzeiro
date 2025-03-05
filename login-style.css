@@ -1,0 +1,69 @@
+body {
+    background-image: linear-gradient(to right, #fff);
+}
+
+.container {
+    background-color: #ced8f0;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 120px;
+    border-radius: 2px;
+}
+
+fieldset {
+    height: 300px;
+    width: 400px;
+    margin: 30px 10px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    margin-top: 20px;
+}
+
+label {
+    cursor: pointer;
+    color: black;
+}
+
+input {
+    height: 25px;
+    width: 90%;
+    font-size: 18px;
+    position: relative;
+    top: 100px;
+    padding-left: 40px;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+input.button {
+    background-color: #194a9f;
+    color: #ced8f0;
+    border: 2px solid #0272bc;
+    width: 90%;
+    height: 40px;
+    margin-left: 4px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 0;
+}
+
+input.button:hover{
+    background-color: #0272bc;
+}
+
+input#email{
+    background-image: url(imagens/icone-usuario.png);
+}
+
+input#password{
+    background-image: url(imagens/icone-cadeado.png);
+}
+
+h1, h3 {
+    margin: 1px 30px;
+    padding-top: 30px;
+}

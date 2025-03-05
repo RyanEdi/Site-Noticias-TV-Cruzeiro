@@ -1,0 +1,207 @@
+/* Logo COC = font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+body {
+    font-family: "Roboto Condensed", serif;
+    background-color: whitesmoke;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.header-cruzeiro {
+    text-align: center;
+    font-size: 16px;
+    padding: 21px 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-style: normal;
+    margin: 10px auto;
+}
+
+.header-cruzeiro img{
+    width: 67.1%;
+    padding: -100px auto;
+    position: relative;
+    left: 7px;
+    margin: -30px auto;
+}
+
+span {
+    color: white;
+}
+
+.menu-cruzeiro{
+    padding: 20px;
+    position: relative;
+    bottom: 20px;
+    line-height: 21px;
+    background-image: linear-gradient(to right, #0272bc, #194a9f);
+}
+
+/*
+.menu-cruzeiro{
+    padding: 20px;
+    position: relative;
+    bottom: 20px;
+    background-color: #0272bc;
+}
+
+*/
+a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 12px;
+    border-radius: 4px;
+}
+
+a:hover{
+    color: #0d569d;
+    background: white;
+}
+
+#conteudo-principal{
+    width: 920px;
+    margin: 0 auto;
+    padding: 30px;
+    position: relative;
+    bottom: 40px;
+}
+
+#area-postagens{
+    width: 660px;
+    float: left;
+}
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+h2{
+    font-family: "Roboto", serif;
+    margin-bottom: 9px;
+}
+
+h3 {
+    background-color: #ced8f0;
+    padding: 5px;
+}
+
+.data-postagem{
+    font-family: "Roboto", serif;
+    position: static;
+    bottom: 440px;
+    margin-top: 5px;
+    color: black;
+    font-style: italic;
+    display: block;
+}
+
+img{
+    padding: 50px;
+    position: relative;
+    bottom: 30px;
+    right: 300px;
+    left: -49px;
+    width: 610px;
+}
+
+p{
+    position: relative;
+    bottom: 60px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#menu-lateral{
+    width: 240px;
+    height: 240px;
+    float: right;
+    background-color: white;
+    padding: 5px;
+}
+
+#links{
+    width: 240px;
+    height: 160px;
+    float: right;
+    position: relative;
+    left: 5px;
+    margin-left: 5px;
+    background-color: white;
+    padding: 5px;
+}
+
+/*
+#rodape{
+    clear: both;
+    background: #ccc;
+    text-align: center;
+    padding: 15px;
+    width: 1000px;
+}
+*/
+
+#rodape{
+    clear: both;
+    text-align: center;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    padding: 21px 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    margin: 10px auto;
+    background-image: linear-gradient(to right, #0272bc, #194a9f);
+    color: white;
+}
+
+
+
+#novo{
+    position: static;
+}
+
+#nova{
+    position: static;
+    padding-top: 20px;
+}
+
+.conteudo-lateral{
+margin-bottom: 50px;
+}
+
+
+.conteudo-lateral a{
+    background: none;
+    position: absolute;
+    color: #0d569d;
+    padding: 5px;
+    height: 30px;
+}
+
+
+.postagem-lateral{
+    font-size: 1.0em;
+    margin-top: 9px;
+}
+
+.links-relacionados a{
+    display: block;
+}
+
+
+hr{
+    display: block;
+    position: relative;
+    top: 30px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
