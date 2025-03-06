@@ -13,4 +13,4 @@ O projeto consiste em um site de notícias simples com a temática de um time de
 # Tecnologias Utilizadas
 * **Front-End:** HTML, CSS
 
-# Este é um projeto de estudo individual
+**Este é um projeto de estudo individual**
