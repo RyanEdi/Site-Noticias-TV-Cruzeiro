@@ -1,4 +1,4 @@
-Projeto TV Cruzeiro - Site de Notícias
+# Projeto TV Cruzeiro - Site de Notícias
 
 Esse é um projeto de estudo, desenvolvido com o objetivo de aprimorar minhas habilidades em desenvolvimento web.
 
